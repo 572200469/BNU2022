@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<!--制作头像首页（类似一个海报）-->
+<view class="container">
+   <!-- 卡片样式（个人感觉有利于大小不同的手机看海报，并不是响应式） -->
+   <view class="card_wrap">
+    <view class="card_item card1 ">
+      <!-- 
+      <span class="change_icon">
+        <image src="/images/xiaohui.png"></image>
+      </span>
+      给海报顶部一个校徽 -->
+      <!-- 
+      <view class="card_info">
+        <blockquote class="card_info_mes_title">2021新年快乐！</blockquote>
+      </view>
+      海报文字 -->
+      <!-- 底部的跳转选择头像框button -->
+      <view class="btn-cta buy_btn" id="1" bindtap="toselect">一起换头像吧！</view>
+      <!-- 海报的整个background-image -->
+      <image src="/images/fengmian.png"></image>
+      <!-- 底部小广告 -->
+      <view class="footer">出品：北师大新媒体中心</view>
+    </view>
+   </view> 
+</view>
+<!--author.-->
