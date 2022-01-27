@@ -3,12 +3,12 @@
   background: #f2f2f6;
   position: relative;
   width: 100%;
-  height: 100%
+  display: flex;
+  justify-content: center;
 }
 
 .card_wrap .card_item {
   position: absolute;
-  width: 80%;
 }
 .card_wrap .card_item .buy_btn {
   position: absolute;
@@ -25,7 +25,6 @@
   left: 50%;
   margin-left: -17px;
   box-shadow:none;
-
 }
 
 .card_wrap .card_item .card_info {
@@ -52,17 +51,11 @@
   line-height: 24px;
 }
 
-.card_wrap .card_item.card1 {
-  /*top: 62px;
-  left: 25px;*/
-  transform: translateY(35px) translateX(37px);
-  z-index: 3
-}
 
 .card_wrap .card_item image {
   display: block;
-  width: 100%;
-  height: 500px;
+  width: 580rpx;
+  height: 1044rpx;
   border-radius: 6px;
   box-shadow: 6px 23px 50px 10px #ccc;
 }

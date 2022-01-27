@@ -3,7 +3,7 @@
 <view class="container">
    <!-- 卡片样式（个人感觉有利于大小不同的手机看海报，并不是响应式） -->
    <view class="card_wrap">
-    <view class="card_item card1 ">
+    <view class="card_item">
       <!-- 
       <span class="change_icon">
         <image src="/images/xiaohui.png"></image>
@@ -11,7 +11,7 @@
       给海报顶部一个校徽 -->
       <!-- 
       <view class="card_info">
-        <blockquote class="card_info_mes_title">2021新年快乐！</blockquote>
+        <blockquote class="card_info_mes_title">2022新年快乐！</blockquote>
       </view>
       海报文字 -->
       <!-- 底部的跳转选择头像框button -->

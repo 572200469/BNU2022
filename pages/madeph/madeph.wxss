@@ -43,14 +43,14 @@
 .avatar{
     /* width: 6.25rem;
     height: 6.25rem; */
-    width: 5.25rem;
-    height: 5.25rem;
-    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
     position: absolute;
     /* top: 18%;
     left: 19%; */
-    top: 24%;
-    left: 25%;
+    z-index: 3;
+    top:0;
+    left:0;
 }
 
 .h1{
@@ -85,7 +85,20 @@
     left: 19%; 
     
 }
-
+.h7{
+    width: 6.35rem;
+    height: 6.35rem; 
+    top: 18.5%;
+    left: 19%; 
+    
+}
+.h8{
+    width: 6.35rem;
+    height: 6.35rem; 
+    top: 18.5%;
+    left: 19%; 
+    
+}
 
 .item{
     line-height: 3rem;

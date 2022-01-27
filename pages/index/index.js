@@ -2,19 +2,11 @@
 //获取应用实例
 const app = getApp()
 
-/***************增加转发分享功能 
- * onShareAppMessage: function (res) {
-    return {
-      title: 'ECharts 可以在微信小程序中使用啦！',
-      path: '/pages/index/index',
-      success: function () { },
-      fail: function () { }
-    }
-  },
- * 
- * 
-*/
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
 
   },
@@ -22,5 +14,26 @@ Page({
     wx.navigateTo({
       url: '../select/select'
     })
+  },
+
+  
+  //转发分享功能 
+  onLoad: function (options) {
+	 //开启分享好友功能
+    wx.showShareMenu({
+      withShareTicket: true
+    });
+  },
+
+  onShareAppMessage: function () {
+    return {
+      title: 'BNU新年头像',  //分享时缩略图的名称
+      success: (res) => {
+        // 分享成功
+      },
+      fail: (res) => {
+        // 分享失败
+      }
+    }
   }
 })
